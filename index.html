@@ -26,52 +26,55 @@
 
 <!-- navigation section -->
 <div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
+    <div class="container-inner">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+        </button>
         <div class="navbar-header">
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-            </button>
             <img class="navbar-logo" src="images/logo/03.png">
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home" class="smoothScroll">HOME</a></li>
-                <li><a href="#intro" class="smoothScroll">INTRO</a></li>
-                <li><a href="#work" class="smoothScroll">WORK</a></li>
-                <li><a href="#team" class="smoothScroll">TEAM</a></li>
-                <li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
-                <li><a href="#price" class="smoothScroll">PRICE</a></li>
-                <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+                <li><a href="#home" class="smoothScroll"><span>H</span>ome</a></li>
+                <li><a href="#intro" class="smoothScroll"><span>A</span>bout us</a></li>
+                <li><a href="#work" class="smoothScroll"><span>S</span>ervices</a></li>
+                <li><a href="#team" class="smoothScroll"><span>P</span>artners</a></li>
             </ul>
         </div>
+        <button href="#contact" class="btn-contact">Contact Us</button>
     </div>
 </div>
 
 <!-- home section -->
 <section id="home">
-    <div class="container">
+    <div class="container home-inner">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h1 class="wow bounceInDown rotate">Kalinda IT</h1>
-                <h2 class="wow bounce">Premium IT Services</h2>
-                <a href="#intro" class="btn btn-default smoothScroll">LEARN MORE</a>
+                <h1 class="wow bounceInDown rotate">Welcome to Kalinda IT</h1>
+                <h2 class="wow bounce">The First Nation Tech Company</h2>
+                <p>Proudly recognised as an Indigenous Business, Kalinda IT is a technology solutions and service
+                    provider.</p>
             </div>
         </div>
     </div>
+</section>
+
+<section class="btn-learn">
+    <a href="#intro" class="smoothScroll">learn more</a>
 </section>
 
 <!-- intro section -->
 <section id="intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
-                <h4>WELCOME TO KALINDA IT</h4>
-                <h2>Premium IT Services</h2>
+            <div class="title">
+                <h1>We believe constant innovation around IT services can help you <strong>simplify, save money and
+                    deliver value to your customer</strong></h1>
                 <hr>
-                <p>Constant innovation around our IT services allows us to do what most IT companies only claim, which
-                    is to help you simplify, save money and deliver value to your customer</p>
+                <p>We focus on delivering a full range of services including systems integration, managed services,
+                    custom platform builds, DC management and software application development.</p>
             </div>
         </div>
     </div>
@@ -81,28 +84,42 @@
 <section id="work">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 title">
-                <h2>Our Services</h2>
-                <hr>
-                <p>Your goals are too important to be weighed down by IT problems</p>
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <div class="col-md-6 col-sm-6 bg-black">
-                    <h3>Managed IT Services</h3>
-                    <p>IT support to take you from where you are to where you would like to be</p>
+            <div class="work-cards">
+                <div class="col-md-3 col-sm-3 work-item">
+                    <div class="bg-gray">
+                        <h3>Managed IT Services</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
+                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
+                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6 bg-red">
-                    <h3>Security</h3>
-                    <p>Ensure you are fully secure, able to connect and protected from the unexpected</p>
+                <div class="col-md-3 col-sm-3 work-item">
+                    <div class="bg-yellow">
+                        <h3>Security</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
+                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
+                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6 bg-red">
-                    <h3>Storage & Management</h3>
-                    <p>Improve the performance, recoverability and maximise your data insights</p>
+                <div class="col-md-3 col-sm-3 work-item">
+                    <div class="bg-white">
+                        <h3>Storage & Management</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
+                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
+                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6 bg-black">
-                    <h3>Technology Consulting Services</h3>
-                    <p>Combining technical, logistical and management services to deliver your IT projects on time and
-                        on budget</p>
+                <div class="col-md-3 col-sm-3 work-item">
+                    <div class="bg-blue">
+                        <h3>Technology Consulting Services</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
+                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
+                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,7 +147,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
-                <h2>Turbocharge your business!</h2>
+                <h2>What we do</h2>
                 <hr>
                 <h4>Are you tired of the same old service?</h4>
                 <p>The Kalinda IT Team don’t just sit on the sideline closing tickets, we focus on ensuring that our
@@ -300,27 +317,27 @@
 <!--</div>-->
 
 <!-- contact section -->
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">
-                <h2>Contact Us</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoree.</p>
-            </div>
-            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp"
-                 data-wow-delay="0.9s">
-                <form action="#" method="post">
-                    <input type="text" class="form-control" placeholder="Name">
-                    <input type="email" class="form-control" placeholder="Email">
-                    <textarea class="form-control" placeholder="Message" rows="6"></textarea>
-                    <input type="submit" class="form-control" value="SEND EMAIL">
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section id="contact">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">-->
+<!--                <h2>Contact Us</h2>-->
+<!--                <hr>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
+<!--                    laoree.</p>-->
+<!--            </div>-->
+<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp"-->
+<!--                 data-wow-delay="0.9s">-->
+<!--                <form action="#" method="post">-->
+<!--                    <input type="text" class="form-control" placeholder="Name">-->
+<!--                    <input type="email" class="form-control" placeholder="Email">-->
+<!--                    <textarea class="form-control" placeholder="Message" rows="6"></textarea>-->
+<!--                    <input type="submit" class="form-control" value="SEND EMAIL">-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <!-- google map section -->
 <!--<div class="google_map">-->
@@ -332,14 +349,55 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="widget">
-                    <div class="widget-text">
-                        <ul>
-                            <li>+61 2 9091 3365</li>
-                            <li>info@kalindait.com</li>
-                            <li>88 Phillip Street, Sydney, NSW, 2000, Australia</li>
-                            <li>32 Carter Street, Lidcombe, NSW, 2141 Australia</li>
-                        </ul>
+                <div class="col-md-3 col-sm-3 bg-red">
+                    <div class="widget">
+                        <div class="widget-text">
+                            <ul>
+                                <li><img class="footer-logo" src="images/logo/01.png" alt="Kalinda IT"></li>
+                                <li>Copyright © 2021 Kalinda IT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 bg-red">
+                    <div class="widget">
+                        <div class="widget-text">
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li>Phone:
+                                    <a href="tel:61290913365" target="_blank" rel="nofollow">+61 2 9091 3365</a></li>
+                                <li>Email:
+                                    <a href="mailto:info@kalindait.com" rel="nofollow">info@kalindait.com</a></li>
+                                <li><a href="https://goo.gl/maps/A4FZhBxWxSbATVNe7" target="_blank" rel="nofollow">88
+                                    Phillip Street, Sydney, NSW, 2000, Australia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 bg-red">
+                    <div class="widget">
+                        <div class="widget-text">
+                            <ul>
+                                <li><strong>Services</strong></li>
+                                <li>Cloud Adoption</li>
+                                <li>Digital Information</li>
+                                <li>Security & Identity</li>
+                                <li>Data & Insights</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 bg-red">
+                    <div class="widget">
+                        <div class="widget-text">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#intro">About Us</a></li>
+                                <li><a href="#work">Services</a></li>
+                                <li><a href="#team">Partners</a></li>
+                                <li><strong>Contact Us</strong></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!--                <h2 class="wow fadeIn" data-wow-delay="0.9s">Follow Us</h2>-->
@@ -352,13 +410,6 @@
                 <!--                    <li><a href="#" class="fa fa-android wow bounceIn" data-wow-delay="0.9s"></a></li>-->
                 <!--                    <li><a href="#" class="fa fa-phone wow bounceIn" data-wow-delay="0.9s"></a></li>-->
                 <!--                </ul>-->
-            </div>
-            <div class="col-md-12 col-sm-12 copyright">
-                <p>Copyright © 2021 Kalinda IT | Template by
-                    <a target="_blank" rel="nofollow" href="http://www.templatemo.com/tm-469-impulse">
-                        Impulse Design
-                    </a>
-                </p>
             </div>
         </div>
     </div>
