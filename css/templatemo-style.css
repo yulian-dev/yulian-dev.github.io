@@ -195,6 +195,169 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	transition: all 0.4s ease-in-out;
 }
 
+/* about section */
+#about {
+	background: url('../images/about/about-bg-new.jpg') 10% 80% repeat-y fixed;
+	color: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+#about .home-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#about h1 {
+	color: #ffffff;
+}
+
+#about h2 {
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+#about h5 {
+	color: #ffffff;
+}
+
+#about .btn {
+	background: #e6c938;
+	border-radius: 4px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+#about .btn:hover {
+	background: #fff;
+	color: #d9b332;
+	transition: all 0.4s ease-in-out;
+}
+
+/* commitment section */
+#commitment {
+	background: url('../images/commitment/commitment-bg.jpg') 75% 80% repeat-y fixed;
+	color: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+#commitment .home-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#commitment h1 {
+	color: #ffffff;
+}
+
+#commitment h2 {
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+#commitment h5 {
+	color: #ffffff;
+}
+
+#commitment .btn {
+	background: #e6c938;
+	border-radius: 4px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+#commitment .btn:hover {
+	background: #fff;
+	color: #d9b332;
+	transition: all 0.4s ease-in-out;
+}
+
+/* commitment bio content section */
+
+.commitment-bio {
+	padding: 100px 0 20px;
+}
+
+.commitment-bio .home-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.commitment-bio .bio-inner p {
+	text-align: justify;
+}
+
+.commitment-bio h1 {
+	color: #ffffff;
+}
+
+.commitment-bio h2 {
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+.commitment-bio h5 {
+	color: #ffffff;
+}
+
+.commitment-bio-content {
+	background: url('../images/commitment/michael.JPG') center / cover no-repeat;
+	color: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.commitment-bio .btn {
+	background: #e6c938;
+	border-radius: 4px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+.commitment-bio .btn:hover {
+	background: #fff;
+	color: #d9b332;
+	transition: all 0.4s ease-in-out;
+}
+
 /* btn learn more */
 .btn-learn {
 	display: block;
@@ -304,6 +467,89 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-top: 14px;
 }
 
+/* intro about section */
+#intro-about {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+#intro-about h4 {
+	padding-bottom: 16px;
+}
+
+#intro-about .title {
+	padding-bottom: 40px;
+}
+
+#intro-about .title h2 {
+	color: #202020;
+	padding-bottom: 30px;
+}
+
+#intro-about .title p {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 14px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+/* description about section */
+#description-about {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+#description-about h4 {
+	padding-bottom: 16px;
+}
+
+#description-about .title {
+	padding-bottom: 40px;
+}
+
+#description-about .title h2 {
+	color: #202020;
+	padding-bottom: 30px;
+}
+
+#description-about .title p {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 14px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+#description-about .title ul li {
+	font-size: 18px;
+	text-align: justify;
+}
+
+/* description-commitment section */
+#description-commitment {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+#description-commitment h4 {
+	padding-bottom: 16px;
+}
+
+#description-commitment .title {
+	padding-bottom: 40px;
+	text-align: justify;
+}
+
+#description-commitment .title h3 {
+	color: #202020;
+	padding: 0 0px 30px 15px;
+}
+
+#description-commitment .title p {
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 14px;
+}
+
 /* work section */
 #work {
 	background-color: #ffffff;
@@ -376,6 +622,164 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 
 #work .fa:hover {
+	background-color: #ffffff;
+	border-radius: 50%;
+	color: #303030;
+}
+
+/* work about section */
+#work-about {
+	background-color: #ffffff;
+}
+
+#work-about .container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#work-about .work-cards {
+	display: flex;
+	padding: 0 20px;
+	margin-top: -75px;
+}
+
+#work-about .work-item {
+	display: flex;
+	align-items: stretch;
+}
+
+#work-about .title {
+	padding: 60px 60px;
+}
+
+#work-about .bg-gray {
+	border-radius: 8px;
+	background-color: #6D6D6D;
+	color: #ffffff;
+}
+
+#work-about .bg-yellow {
+	border-radius: 8px;
+	background-color: #d9b332;
+	color: #ffffff;
+}
+
+#work-about .bg-white {
+	border-radius: 8px;
+	background-color: #E9E8E3;
+	color: #d9b332;
+}
+
+#work-about .bg-blue {
+	border-radius: 8px;
+	background-color: #5D90A6;
+	color: #ffffff;
+}
+
+#work-about h3 {
+	font-size: 40px;
+	padding: 40px 15px 20px;
+}
+
+#work-about p {
+	font-size: 20px;
+	padding: 10px 45px 20px;
+	text-align: justify;
+}
+
+#work-about .fa {
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 40px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+	margin-top: 40px;
+}
+
+#work-about .fa:hover {
+	background-color: #ffffff;
+	border-radius: 50%;
+	color: #303030;
+}
+
+/* work commitment section */
+#work-commitment {
+	background-color: #ffffff;
+}
+
+#work-commitment .container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#work-commitment .work-cards {
+	display: flex;
+	padding: 0 20px;
+	margin-top: -75px;
+}
+
+#work-commitment .work-item {
+	display: flex;
+	align-items: stretch;
+}
+
+#work-commitment .title {
+	padding: 60px 60px;
+}
+
+#work-commitment .bg-gray {
+	border-radius: 8px;
+	background-color: #6D6D6D;
+	color: #ffffff;
+}
+
+#work-commitment .bg-yellow {
+	border-radius: 8px;
+	background-color: #d9b332;
+	color: #ffffff;
+}
+
+#work-commitment .bg-white {
+	border-radius: 8px;
+	background-color: #E9E8E3;
+	color: #d9b332;
+}
+
+#work-commitment .bg-blue {
+	border-radius: 8px;
+	background-color: #5D90A6;
+	color: #ffffff;
+}
+
+#work-commitment h3 {
+	font-size: 40px;
+	padding: 40px 15px 20px;
+}
+
+#work-commitment p {
+	font-size: 20px;
+	padding: 10px 45px 20px;
+	text-align: justify;
+}
+
+#work-commitment .fa {
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 40px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	transition: all 0.4s ease-in-out;
+	margin-top: 40px;
+}
+
+#work-commitment .fa:hover {
 	background-color: #ffffff;
 	border-radius: 50%;
 	color: #303030;
